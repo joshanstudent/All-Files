@@ -1,0 +1,1865 @@
+body{
+	background-color: #3A5167;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+}
+
+img, object, embed, {
+	max-width: 100%;
+}
+
+.ie6 img {
+	width:100%;
+}
+a:link {
+	color: #CCC;
+	text-decoration: none;
+}
+a:visited {
+	color: #CCC;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #00F;
+}
+a:active {
+	text-decoration: none;
+}
+
+
+
+/* Mobile Layout: 480px and below. */
+
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+header {
+	background-color: #222c33;
+	color:#fff;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nav{
+	display: inline;
+	
+}
+ul {
+	
+	float: left;
+	margin-top: 45px;	
+}
+ul li{
+	display: inline;
+	padding-right: 5px;
+	margin-left: 20px;
+	
+}
+
+/* =============== search box ====================== */
+#bluelightensearch{
+	width: 300px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	float: right;
+}
+
+.bluelightentextinput{
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border:1px solid #0076a3; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.bluelightenbutton {
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3; border-right:0px;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.bluelightenbutton:hover {
+	text-decoration: none;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+/* Fixes submit button height problem in Firefox */
+.bluelightenbutton::-moz-focus-inner {
+  border: 0;
+}
+
+/* ================ silder =================== */
+.cycle-slideshow{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.cycle-slide{
+	width: 100%;
+	
+		
+}
+/* ============= CTA ==================== */
+
+#cta{
+	max-width: 100%;
+	height: 50px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 1px;
+	padding-top: 10px;
+	color: #CCC;
+	float: left;
+}
+
+
+.button {
+	border: 1px solid #0a3c59;
+	background: #3e779d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+	background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+	background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+	background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+	background: -o-linear-gradient(top, #65a9d7, #3e779d);
+	background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	-moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	text-shadow: #7ea4bd 0 1px 0;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: helvetica, serif;
+	text-decoration: none;
+	vertical-align: middle;
+	float: right;
+	padding-top: 10.5px;
+	padding-right: 21px;
+	padding-bottom: 10.5px;
+	padding-left: 21px;
+	margin-top: 20px;
+}
+.button:hover {
+   border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #fff;
+}
+.button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 1px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+}	
+/*=============================== Post ========================================*/
+article{
+	background-color: #dfebf1;
+	width: 100%;
+	float: left;
+	padding-top: 5px;
+	margin-top: 30px;
+	
+}
+article p{
+	margin-right: 7px;
+	margin-bottom: 30px;
+    margin-left: 7px;
+}
+h2, h3{
+	margin-left: 7px;
+
+}
+/*================================== Newsletter form ==========================*/
+.form-container {
+	border: 1px solid #755d44;
+	background: #5c4832;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#5c4832));
+	background: -webkit-linear-gradient(top, #ffffff, #5c4832);
+	background: -moz-linear-gradient(top, #ffffff, #5c4832);
+	background: -ms-linear-gradient(top, #ffffff, #5c4832);
+	background: -o-linear-gradient(top, #ffffff, #5c4832);
+	background-image: -ms-linear-gradient(top, #ffffff 0%, #5c4832 100%);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	-moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	font-family: 'Helvetica Neue',Helvetica,sans-serif;
+	text-decoration: none;
+	vertical-align: middle;
+	min-width: 300px;
+	padding: 20px;
+	width: 300px;
+	margin-top: 80px;
+	float: left;
+   }
+.form-field {
+   border: 1px solid #c9b7a2;
+   background: #e4d5c3;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   color: #18587a;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+   }
+.form-field:focus {
+   background: #fff;
+   color: #725129;
+   }
+.form-container h2 {
+   text-shadow: #507282 0 1px 0;
+   font-size:18px;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+.form-title {
+   margin-bottom:10px;
+   color: #2a485c;
+   text-shadow: #507282 0 1px 0;
+   }
+.submit-container {
+   margin:8px 0;
+   text-align:right;
+   }
+.submit-button {
+   border: 1px solid #224f85;
+   background: #3667a3;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3c7fba), to(#3667a3));
+   background: -webkit-linear-gradient(top, #3c7fba, #3667a3);
+   background: -moz-linear-gradient(top, #3c7fba, #3667a3);
+   background: -ms-linear-gradient(top, #3c7fba, #3667a3);
+   background: -o-linear-gradient(top, #3c7fba, #3667a3);
+   background-image: -ms-linear-gradient(top, #3c7fba 0%, #3667a3 100%);
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7fa8db 0 1px 0;
+   color: #ffffff;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.submit-button:hover {
+   border: 1px solid #154d73;
+   text-shadow: #6c8996 0 1px 0;
+   background: #687180;
+   background: -webkit-gradient(linear, left top, left bottom, from(#5a90bf), to(#687180));
+   background: -webkit-linear-gradient(top, #5a90bf, #687180);
+   background: -moz-linear-gradient(top, #5a90bf, #687180);
+   background: -ms-linear-gradient(top, #5a90bf, #687180);
+   background: -o-linear-gradient(top, #5a90bf, #687180);
+   background-image: -ms-linear-gradient(top, #5a90bf 0%, #687180 100%);
+   color: #fff;
+   }
+.submit-button:active {
+   text-shadow: #0c4d61 0 1px 0;
+   border: 1px solid #214361;
+   background: #19476b;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3677a3), to(#687180));
+   background: -webkit-linear-gradient(top, #3677a3, #19476b);
+   background: -moz-linear-gradient(top, #3677a3, #19476b);
+   background: -ms-linear-gradient(top, #3677a3, #19476b);
+   background: -o-linear-gradient(top, #3677a3, #19476b);
+   background-image: -ms-linear-gradient(top, #3677a3 0%, #19476b 100%);
+   color: #fff;
+   }
+   
+   #newsletters{
+	float: left;
+	margin-left: 50px;
+	color: #CCC;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	
+	   }
+#newsletter-content{
+	width: 900px;
+	color:#ccc;
+	float: left;
+	margin-top: 70px;
+	margin-right: 20px;
+	margin-left: 80px;
+	
+}
+/* ==================== chat-map =========================================*/
+#chat-map{
+	width: 600px;
+	color: #ccc;
+	float: left;
+	margin-top: 125px;
+	margin-right: 10px;
+	margin-left: 125px;
+}
+
+/* ================================== Map =======================================*/
+#map{
+	float: left;
+	margin-top: 105px;	
+	margin-left: 45px;
+}
+/* ================================== Map =======================================*/
+.chat{
+	float: left;
+	margin-top: 105px;
+	margin-left: 55px;
+}
+/* ================================== Footer ================================*/
+.footer{
+	font-family: Arial, Helvetica, sans-serif;
+	left: 0px;
+	top: 0px;
+	color: #222c33;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 10px;
+	font-size: 14px;
+	padding-bottom: 25px;
+	}
+	
+
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.wrapper {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#logo{
+	width: 230px;
+	height: 94px;
+	float: left;
+}
+header {
+	background-color: #222c33;
+	color:#fff;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nav{
+	display: inline;
+	
+}
+ul {
+	width: 400px;
+	float: left;
+	margin-top: 45px;	
+}
+ul li{
+	display: inline;
+	padding-right: 10px;
+	margin-left: 35px;
+	
+}
+
+/* =============== search box ====================== */
+#bluelightensearch{
+	width: 300px;
+	margin-top: 5px;
+	float: right;
+}
+
+.bluelightentextinput{
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border:1px solid #0076a3; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.bluelightenbutton {
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3; border-right:0px;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.bluelightenbutton:hover {
+	text-decoration: none;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+/* Fixes submit button height problem in Firefox */
+.bluelightenbutton::-moz-focus-inner {
+  border: 0;
+}
+
+/* ================ silder =================== */
+.cycle-slideshow{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.cycle-slide{
+	width: 100%;
+	
+		
+}
+/* ============= CTA ==================== */
+
+#cta{
+	max-width: 100%;
+	height: 50px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 1px;
+	padding-top: 10px;
+	color: #CCC;
+	float: left;
+}
+
+
+.button {
+	border: 1px solid #0a3c59;
+	background: #3e779d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+	background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+	background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+	background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+	background: -o-linear-gradient(top, #65a9d7, #3e779d);
+	background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	-moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	text-shadow: #7ea4bd 0 1px 0;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: helvetica, serif;
+	text-decoration: none;
+	vertical-align: middle;
+	float: right;
+	padding-top: 10.5px;
+	padding-right: 21px;
+	padding-bottom: 10.5px;
+	padding-left: 21px;
+	margin-top: 20px;
+}
+.button:hover {
+   border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #fff;
+}
+.button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 1px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+}	
+/*=============================== Post ========================================*/
+article{
+	background-color: #dfebf1;
+	width: 100%;
+	float: left;
+	padding-top: 5px;
+	margin-top: 30px;
+	
+}
+article p{
+	margin-right: 7px;
+	margin-bottom: 30px;
+    margin-left: 7px;
+}
+h2, h3{
+	margin-left: 7px;
+
+}
+/*================================== Newsletter form ==========================*/
+.form-container {
+	border: 1px solid #755d44;
+	background: #5c4832;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#5c4832));
+	background: -webkit-linear-gradient(top, #ffffff, #5c4832);
+	background: -moz-linear-gradient(top, #ffffff, #5c4832);
+	background: -ms-linear-gradient(top, #ffffff, #5c4832);
+	background: -o-linear-gradient(top, #ffffff, #5c4832);
+	background-image: -ms-linear-gradient(top, #ffffff 0%, #5c4832 100%);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	-moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	font-family: 'Helvetica Neue',Helvetica,sans-serif;
+	text-decoration: none;
+	vertical-align: middle;
+	min-width: 300px;
+	padding: 20px;
+	width: 300px;
+	margin-top: 80px;
+	float: left;
+   }
+.form-field {
+   border: 1px solid #c9b7a2;
+   background: #e4d5c3;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   color: #18587a;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+   }
+.form-field:focus {
+   background: #fff;
+   color: #725129;
+   }
+.form-container h2 {
+   text-shadow: #507282 0 1px 0;
+   font-size:18px;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+.form-title {
+   margin-bottom:10px;
+   color: #2a485c;
+   text-shadow: #507282 0 1px 0;
+   }
+.submit-container {
+   margin:8px 0;
+   text-align:right;
+   }
+.submit-button {
+   border: 1px solid #224f85;
+   background: #3667a3;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3c7fba), to(#3667a3));
+   background: -webkit-linear-gradient(top, #3c7fba, #3667a3);
+   background: -moz-linear-gradient(top, #3c7fba, #3667a3);
+   background: -ms-linear-gradient(top, #3c7fba, #3667a3);
+   background: -o-linear-gradient(top, #3c7fba, #3667a3);
+   background-image: -ms-linear-gradient(top, #3c7fba 0%, #3667a3 100%);
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7fa8db 0 1px 0;
+   color: #ffffff;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.submit-button:hover {
+   border: 1px solid #154d73;
+   text-shadow: #6c8996 0 1px 0;
+   background: #687180;
+   background: -webkit-gradient(linear, left top, left bottom, from(#5a90bf), to(#687180));
+   background: -webkit-linear-gradient(top, #5a90bf, #687180);
+   background: -moz-linear-gradient(top, #5a90bf, #687180);
+   background: -ms-linear-gradient(top, #5a90bf, #687180);
+   background: -o-linear-gradient(top, #5a90bf, #687180);
+   background-image: -ms-linear-gradient(top, #5a90bf 0%, #687180 100%);
+   color: #fff;
+   }
+.submit-button:active {
+   text-shadow: #0c4d61 0 1px 0;
+   border: 1px solid #214361;
+   background: #19476b;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3677a3), to(#687180));
+   background: -webkit-linear-gradient(top, #3677a3, #19476b);
+   background: -moz-linear-gradient(top, #3677a3, #19476b);
+   background: -ms-linear-gradient(top, #3677a3, #19476b);
+   background: -o-linear-gradient(top, #3677a3, #19476b);
+   background-image: -ms-linear-gradient(top, #3677a3 0%, #19476b 100%);
+   color: #fff;
+   }
+   
+   #newsletters{
+	float: left;
+	margin-left: 50px;
+	color: #CCC;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	
+	   }
+#newsletter-content{
+	width: 900px;
+	color:#ccc;
+	float: left;
+	margin-top: 70px;
+	margin-right: 20px;
+	margin-left: 80px;
+	
+}
+/* ==================== chat-map =========================================*/
+#chat-map{
+	width: 600px;
+	color: #ccc;
+	float: left;
+	margin-top: 125px;
+	margin-right: 10px;
+	margin-left: 125px;
+}
+
+/* ================================== Map =======================================*/
+#map{
+	float: left;
+	margin-top: 105px;	
+	margin-left: 45px;
+}
+/* ================================== Map =======================================*/
+.chat{
+	float: left;
+	margin-top: 105px;
+	margin-left: 55px;
+}
+/* ================================== Footer ================================*/
+.footer{
+	font-family: Arial, Helvetica, sans-serif;
+	left: 0px;
+	top: 0px;
+	color: #222c33;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 10px;
+	font-size: 14px;
+	padding-bottom: 25px;
+	}
+	
+
+
+}
+
+/* Desktop Layout: 769px to a max of 1070px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.wrapper {
+	width: 88.2%;
+	max-width: 1070px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+header {
+	background-color: #222c33;
+	color:#fff;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nav{
+	display: inline;
+	
+}
+ul {
+	width: 400px;
+	float: left;
+	margin-top: 45px;	
+}
+ul li{
+	display: inline;
+	padding-right: 10px;
+	margin-left: 35px;
+	
+}
+
+/* =============== search box ====================== */
+#bluelightensearch{
+	width: 300px;
+	margin-top: 5px;
+	float: right;
+}
+
+.bluelightentextinput{
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border:1px solid #0076a3; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.bluelightenbutton {
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3; border-right:0px;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.bluelightenbutton:hover {
+	text-decoration: none;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+/* Fixes submit button height problem in Firefox */
+.bluelightenbutton::-moz-focus-inner {
+  border: 0;
+}
+
+/* ================ silder =================== */
+.cycle-slideshow{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.cycle-slide{
+	width: 100%;
+	
+		
+}
+
+/* ============= CTA ==================== */
+
+#cta{
+	max-width: 100%;
+	height: 50px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 1px;
+	padding-top: 10px;
+	color: #CCC;
+	float: left;
+}
+
+
+.button {
+	border: 1px solid #0a3c59;
+	background: #3e779d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+	background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+	background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+	background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+	background: -o-linear-gradient(top, #65a9d7, #3e779d);
+	background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	-moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	text-shadow: #7ea4bd 0 1px 0;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: helvetica, serif;
+	text-decoration: none;
+	vertical-align: middle;
+	float: right;
+	padding-top: 10.5px;
+	padding-right: 21px;
+	padding-bottom: 10.5px;
+	padding-left: 21px;
+	margin-top: 20px;
+}
+.button:hover {
+   border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #fff;
+}
+.button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 1px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+}	
+/*=============================== Post ========================================*/
+article{
+	background-color: #dfebf1;
+	width: 100%;
+	float: left;
+	padding-top: 5px;
+	margin-top: 30px;
+	
+}
+article p{
+	margin-right: 7px;
+	margin-bottom: 30px;
+    margin-left: 7px;
+}
+h2, h3{
+	margin-left: 7px;
+
+}
+/*================================== Newsletter form ==========================*/
+.form-container {
+	border: 1px solid #755d44;
+	background: #5c4832;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#5c4832));
+	background: -webkit-linear-gradient(top, #ffffff, #5c4832);
+	background: -moz-linear-gradient(top, #ffffff, #5c4832);
+	background: -ms-linear-gradient(top, #ffffff, #5c4832);
+	background: -o-linear-gradient(top, #ffffff, #5c4832);
+	background-image: -ms-linear-gradient(top, #ffffff 0%, #5c4832 100%);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	-moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	font-family: 'Helvetica Neue',Helvetica,sans-serif;
+	text-decoration: none;
+	vertical-align: middle;
+	min-width: 300px;
+	padding: 20px;
+	width: 300px;
+	margin-top: 80px;
+	float: left;
+   }
+.form-field {
+   border: 1px solid #c9b7a2;
+   background: #e4d5c3;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   color: #18587a;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+   }
+.form-field:focus {
+   background: #fff;
+   color: #725129;
+   }
+.form-container h2 {
+   text-shadow: #507282 0 1px 0;
+   font-size:18px;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+.form-title {
+   margin-bottom:10px;
+   color: #2a485c;
+   text-shadow: #507282 0 1px 0;
+   }
+.submit-container {
+   margin:8px 0;
+   text-align:right;
+   }
+.submit-button {
+   border: 1px solid #224f85;
+   background: #3667a3;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3c7fba), to(#3667a3));
+   background: -webkit-linear-gradient(top, #3c7fba, #3667a3);
+   background: -moz-linear-gradient(top, #3c7fba, #3667a3);
+   background: -ms-linear-gradient(top, #3c7fba, #3667a3);
+   background: -o-linear-gradient(top, #3c7fba, #3667a3);
+   background-image: -ms-linear-gradient(top, #3c7fba 0%, #3667a3 100%);
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7fa8db 0 1px 0;
+   color: #ffffff;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.submit-button:hover {
+   border: 1px solid #154d73;
+   text-shadow: #6c8996 0 1px 0;
+   background: #687180;
+   background: -webkit-gradient(linear, left top, left bottom, from(#5a90bf), to(#687180));
+   background: -webkit-linear-gradient(top, #5a90bf, #687180);
+   background: -moz-linear-gradient(top, #5a90bf, #687180);
+   background: -ms-linear-gradient(top, #5a90bf, #687180);
+   background: -o-linear-gradient(top, #5a90bf, #687180);
+   background-image: -ms-linear-gradient(top, #5a90bf 0%, #687180 100%);
+   color: #fff;
+   }
+.submit-button:active {
+   text-shadow: #0c4d61 0 1px 0;
+   border: 1px solid #214361;
+   background: #19476b;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3677a3), to(#687180));
+   background: -webkit-linear-gradient(top, #3677a3, #19476b);
+   background: -moz-linear-gradient(top, #3677a3, #19476b);
+   background: -ms-linear-gradient(top, #3677a3, #19476b);
+   background: -o-linear-gradient(top, #3677a3, #19476b);
+   background-image: -ms-linear-gradient(top, #3677a3 0%, #19476b 100%);
+   color: #fff;
+   }
+   
+   #newsletters{
+	float: left;
+	margin-left: 50px;
+	color: #CCC;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	
+	   }
+#newsletter-content{
+	width: 900px;
+	color:#ccc;
+	float: left;
+	margin-top: 70px;
+	margin-right: 20px;
+	margin-left: 80px;
+	
+}
+/* ==================== chat-map =========================================*/
+#chat-map{
+	width: 600px;
+	color: #ccc;
+	float: left;
+	margin-top: 125px;
+	margin-right: 10px;
+	margin-left: 125px;
+}
+
+/* ================================== Map =======================================*/
+#map{
+	float: left;
+	margin-top: 105px;	
+	margin-left: 45px;
+}
+/* ================================== Map =======================================*/
+.chat{
+	float: left;
+	margin-top: 105px;
+	margin-left: 55px;
+}
+/* ================================== Footer ================================*/
+.footer{
+	font-family: Arial, Helvetica, sans-serif;
+	left: 0px;
+	top: 0px;
+	color: #222c33;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 10px;
+	font-size: 14px;
+	padding-bottom: 25px;
+	}
+	
+}
+/* Desktop Layout: 1071px to a max of 1099px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 1071px) {
+.wrapper {
+	width: 88.2%;
+	max-width: 1099px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+header {
+	background-color: #222c33;
+	color:#fff;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nav{
+	display: inline;
+	
+}
+ul {
+	width: 400px;
+	float: left;
+	margin-top: 45px;	
+}
+ul li{
+	display: inline;
+	padding-right: 10px;
+	margin-left: 45px;
+	
+}
+
+/* =============== search box ====================== */
+#bluelightensearch{
+	width: 300px;
+	margin-top: 5px;
+	float: right;
+}
+
+.bluelightentextinput{
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border:1px solid #0076a3; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.bluelightenbutton {
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3; border-right:0px;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.bluelightenbutton:hover {
+	text-decoration: none;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+/* Fixes submit button height problem in Firefox */
+.bluelightenbutton::-moz-focus-inner {
+  border: 0;
+}
+/* ================ silder =================== */
+.cycle-slideshow{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.cycle-slide{
+	width: 100%;
+	
+		
+}
+
+
+/* ============= CTA ==================== */
+
+#cta{
+	max-width: 100%;
+	height: 50px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 1px;
+	padding-top: 10px;
+	color: #CCC;
+	float: left;
+}
+
+
+.button {
+	border: 1px solid #0a3c59;
+	background: #3e779d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+	background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+	background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+	background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+	background: -o-linear-gradient(top, #65a9d7, #3e779d);
+	background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	-moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	text-shadow: #7ea4bd 0 1px 0;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: helvetica, serif;
+	text-decoration: none;
+	vertical-align: middle;
+	float: right;
+	padding-top: 10.5px;
+	padding-right: 21px;
+	padding-bottom: 10.5px;
+	padding-left: 21px;
+	margin-top: 20px;
+}
+.button:hover {
+   border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #fff;
+}
+.button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 1px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+}	
+/*=============================== Post ========================================*/
+article{
+	background-color: #dfebf1;
+	width: 100%;
+	float: left;
+	padding-top: 5px;
+	margin-top: 30px;
+	
+}
+article p{
+	margin-right: 7px;
+	margin-bottom: 30px;
+    margin-left: 7px;
+}
+h2, h3{
+	margin-left: 7px;
+
+}
+/*================================== Newsletter form ==========================*/
+.form-container {
+	border: 1px solid #755d44;
+	background: #5c4832;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#5c4832));
+	background: -webkit-linear-gradient(top, #ffffff, #5c4832);
+	background: -moz-linear-gradient(top, #ffffff, #5c4832);
+	background: -ms-linear-gradient(top, #ffffff, #5c4832);
+	background: -o-linear-gradient(top, #ffffff, #5c4832);
+	background-image: -ms-linear-gradient(top, #ffffff 0%, #5c4832 100%);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	-moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	font-family: 'Helvetica Neue',Helvetica,sans-serif;
+	text-decoration: none;
+	vertical-align: middle;
+	min-width: 300px;
+	padding: 20px;
+	width: 300px;
+	margin-top: 80px;
+	float: left;
+   }
+.form-field {
+   border: 1px solid #c9b7a2;
+   background: #e4d5c3;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   color: #18587a;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+   }
+.form-field:focus {
+   background: #fff;
+   color: #725129;
+   }
+.form-container h2 {
+   text-shadow: #507282 0 1px 0;
+   font-size:18px;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+.form-title {
+   margin-bottom:10px;
+   color: #2a485c;
+   text-shadow: #507282 0 1px 0;
+   }
+.submit-container {
+   margin:8px 0;
+   text-align:right;
+   }
+.submit-button {
+   border: 1px solid #224f85;
+   background: #3667a3;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3c7fba), to(#3667a3));
+   background: -webkit-linear-gradient(top, #3c7fba, #3667a3);
+   background: -moz-linear-gradient(top, #3c7fba, #3667a3);
+   background: -ms-linear-gradient(top, #3c7fba, #3667a3);
+   background: -o-linear-gradient(top, #3c7fba, #3667a3);
+   background-image: -ms-linear-gradient(top, #3c7fba 0%, #3667a3 100%);
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7fa8db 0 1px 0;
+   color: #ffffff;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.submit-button:hover {
+   border: 1px solid #154d73;
+   text-shadow: #6c8996 0 1px 0;
+   background: #687180;
+   background: -webkit-gradient(linear, left top, left bottom, from(#5a90bf), to(#687180));
+   background: -webkit-linear-gradient(top, #5a90bf, #687180);
+   background: -moz-linear-gradient(top, #5a90bf, #687180);
+   background: -ms-linear-gradient(top, #5a90bf, #687180);
+   background: -o-linear-gradient(top, #5a90bf, #687180);
+   background-image: -ms-linear-gradient(top, #5a90bf 0%, #687180 100%);
+   color: #fff;
+   }
+.submit-button:active {
+   text-shadow: #0c4d61 0 1px 0;
+   border: 1px solid #214361;
+   background: #19476b;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3677a3), to(#687180));
+   background: -webkit-linear-gradient(top, #3677a3, #19476b);
+   background: -moz-linear-gradient(top, #3677a3, #19476b);
+   background: -ms-linear-gradient(top, #3677a3, #19476b);
+   background: -o-linear-gradient(top, #3677a3, #19476b);
+   background-image: -ms-linear-gradient(top, #3677a3 0%, #19476b 100%);
+   color: #fff;
+   }
+   
+   #newsletters{
+	float: left;
+	margin-left: 50px;
+	color: #CCC;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	
+	   }
+#newsletter-content{
+	width: 900px;
+	color:#ccc;
+	float: left;
+	margin-top: 70px;
+	margin-right: 20px;
+	margin-left: 80px;
+	
+}
+/* ==================== chat-map =========================================*/
+#chat-map{
+	width: 600px;
+	color: #ccc;
+	float: left;
+	margin-top: 125px;
+	margin-right: 10px;
+	margin-left: 125px;
+}
+
+/* ================================== Map =======================================*/
+#map{
+	float: left;
+	margin-top: 105px;	
+	margin-left: 45px;
+}
+/* ================================== Map =======================================*/
+.chat{
+	float: left;
+	margin-top: 105px;
+	margin-left: 55px;
+}
+/* ================================== Footer ================================*/
+.footer{
+	font-family: Arial, Helvetica, sans-serif;
+	left: 0px;
+	top: 0px;
+	color: #222c33;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 10px;
+	font-size: 14px;
+	padding-bottom: 25px;
+	}
+	
+}
+
+/* Desktop Layout: 1100px to a max of 1130px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 1100px) {
+.wrapper {
+	width: 88.2%;
+	max-width: 1326px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+header {
+	background-color: #222c33;
+	color:#fff;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nav{
+	display: inline;
+	
+}
+ul {
+	width: 400px;
+	float: left;
+	margin-top: 45px;	
+}
+ul li{
+	display: inline;
+	padding-right: 10px;
+	margin-left: 45px;
+	
+}
+
+/* =============== search box ====================== */
+#bluelightensearch{
+	width: 300px;
+	margin-top: 35px;
+	float: right;
+}
+
+.bluelightentextinput{
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border:1px solid #0076a3; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.bluelightenbutton {
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3; border-right:0px;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.bluelightenbutton:hover {
+	text-decoration: none;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+/* Fixes submit button height problem in Firefox */
+.bluelightenbutton::-moz-focus-inner {
+  border: 0;
+}
+/* ================ silder =================== */
+.cycle-slideshow{
+	background-color: #3A5167;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.cycle-slide{
+	width: 100%;	
+}
+   #newsletters{
+	float: left;
+	margin-left: 50px;
+	color: #CCC;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	
+	   }
+#newsletter-content{
+	width: 900px;
+	color:#ccc;
+	float: left;
+	margin-top: 70px;
+	margin-right: 20px;
+	margin-left: 80px;
+	
+}
+/* ==================== chat-map =========================================*/
+#chat-map{
+	width: 600px;
+	color: #ccc;
+	float: left;
+	margin-top: 125px;
+	margin-right: 10px;
+	margin-left: 125px;
+}
+
+/* ================================== Map =======================================*/
+#map{
+	float: left;
+	margin-top: 105px;	
+	margin-left: 45px;
+}
+/* ================================== Map =======================================*/
+.chat{
+	float: left;
+	margin-top: 105px;
+	margin-left: 55px;
+}
+/* ================================== Footer ================================*/
+.footer{
+	font-family: Arial, Helvetica, sans-serif;
+	left: 0px;
+	top: 0px;
+	color: #222c33;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 10px;
+	font-size: 14px;
+	padding-bottom: 25px;
+	}
+
+
+}
+
+/* Desktop Layout: 1130px to a max of 1500px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 1130px) {
+.wrapper {
+	width: 88.2%;
+	max-width: 1500px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+header {
+	background-color: #222c33;
+	color: #fff;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #DFEBF1;
+}
+#nav{
+	display: inline;
+	
+}
+ul {
+	width: 600px;
+	float: left;
+	margin-top: 45px;	
+}
+ul li{
+	display: inline;
+	padding-right: 10px;
+	margin-left: 95px;
+	
+}
+
+/* =============== search box ====================== */
+#bluelightensearch{
+	width: 300px;
+	margin-top: 35px;
+	float: right;
+}
+
+.bluelightentextinput{
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border:1px solid #0076a3; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.bluelightenbutton {
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3; border-right:0px;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.bluelightenbutton:hover {
+	text-decoration: none;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+/* Fixes submit button height problem in Firefox */
+.bluelightenbutton::-moz-focus-inner {
+  border: 0;
+}
+/* ================ silder =================== */
+.cycle-slideshow{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.cycle-slide{
+	width: 100%;
+	
+		
+}
+/* ============= CTA ==================== */
+
+#cta{
+	max-width: 100%;
+	height: 50px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 1px;
+	padding-top: 10px;
+	color: #CCC;
+	float: left;
+}
+
+
+.button {
+	border: 1px solid #0a3c59;
+	background: #3e779d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+	background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+	background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+	background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+	background: -o-linear-gradient(top, #65a9d7, #3e779d);
+	background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	-moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+	text-shadow: #7ea4bd 0 1px 0;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: helvetica, serif;
+	text-decoration: none;
+	vertical-align: middle;
+	float: right;
+	padding-top: 10.5px;
+	padding-right: 21px;
+	padding-bottom: 10.5px;
+	padding-left: 21px;
+	margin-top: 20px;
+}
+.button:hover {
+   border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #fff;
+}
+.button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 1px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+}	
+/*=============================== Post ========================================*/
+article{
+	background-color: #dfebf1;
+	width: 100%;
+	float: left;
+	padding-top: 5px;
+	margin-top: 30px;
+	
+}
+article p{
+	margin-right: 7px;
+	margin-bottom: 30px;
+    margin-left: 7px;
+}
+h2, h3{
+	margin-left: 7px;
+
+}
+/*================================== Newsletter form ==========================*/
+.form-container {
+	border: 1px solid #755d44;
+	background: #5c4832;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#5c4832));
+	background: -webkit-linear-gradient(top, #ffffff, #5c4832);
+	background: -moz-linear-gradient(top, #ffffff, #5c4832);
+	background: -ms-linear-gradient(top, #ffffff, #5c4832);
+	background: -o-linear-gradient(top, #ffffff, #5c4832);
+	background-image: -ms-linear-gradient(top, #ffffff 0%, #5c4832 100%);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	-moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+	font-family: 'Helvetica Neue',Helvetica,sans-serif;
+	text-decoration: none;
+	vertical-align: middle;
+	min-width: 300px;
+	padding: 20px;
+	width: 300px;
+	margin-top: 80px;
+	float: left;
+   }
+.form-field {
+   border: 1px solid #c9b7a2;
+   background: #e4d5c3;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   color: #18587a;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+   }
+.form-field:focus {
+   background: #fff;
+   color: #725129;
+   }
+.form-container h2 {
+   text-shadow: #507282 0 1px 0;
+   font-size:18px;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+.form-title {
+   margin-bottom:10px;
+   color: #2a485c;
+   text-shadow: #507282 0 1px 0;
+   }
+.submit-container {
+   margin:8px 0;
+   text-align:right;
+   }
+.submit-button {
+   border: 1px solid #224f85;
+   background: #3667a3;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3c7fba), to(#3667a3));
+   background: -webkit-linear-gradient(top, #3c7fba, #3667a3);
+   background: -moz-linear-gradient(top, #3c7fba, #3667a3);
+   background: -ms-linear-gradient(top, #3c7fba, #3667a3);
+   background: -o-linear-gradient(top, #3c7fba, #3667a3);
+   background-image: -ms-linear-gradient(top, #3c7fba 0%, #3667a3 100%);
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7fa8db 0 1px 0;
+   color: #ffffff;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.submit-button:hover {
+   border: 1px solid #154d73;
+   text-shadow: #6c8996 0 1px 0;
+   background: #687180;
+   background: -webkit-gradient(linear, left top, left bottom, from(#5a90bf), to(#687180));
+   background: -webkit-linear-gradient(top, #5a90bf, #687180);
+   background: -moz-linear-gradient(top, #5a90bf, #687180);
+   background: -ms-linear-gradient(top, #5a90bf, #687180);
+   background: -o-linear-gradient(top, #5a90bf, #687180);
+   background-image: -ms-linear-gradient(top, #5a90bf 0%, #687180 100%);
+   color: #fff;
+   }
+.submit-button:active {
+   text-shadow: #0c4d61 0 1px 0;
+   border: 1px solid #214361;
+   background: #19476b;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3677a3), to(#687180));
+   background: -webkit-linear-gradient(top, #3677a3, #19476b);
+   background: -moz-linear-gradient(top, #3677a3, #19476b);
+   background: -ms-linear-gradient(top, #3677a3, #19476b);
+   background: -o-linear-gradient(top, #3677a3, #19476b);
+   background-image: -ms-linear-gradient(top, #3677a3 0%, #19476b 100%);
+   color: #fff;
+   }
+   
+   #newsletters{
+	float: left;
+	margin-left: 50px;
+	color: #CCC;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	
+	   }
+#newsletter-content{
+	width: 900px;
+	color:#ccc;
+	float: left;
+	margin-top: 70px;
+	margin-right: 20px;
+	margin-left: 80px;
+	
+}
+/* ==================== chat-map =========================================*/
+#chat-map{
+	width: 600px;
+	color: #ccc;
+	float: left;
+	margin-top: 125px;
+	margin-right: 10px;
+	margin-left: 125px;
+}
+
+/* ================================== Map =======================================*/
+#map{
+	float: left;
+	margin-top: 105px;	
+	margin-left: 45px;
+}
+/* ================================== Map =======================================*/
+.chat{
+	float: left;
+	margin-top: 105px;
+	margin-left: 55px;
+}
+/* ================================== Footer ================================*/
+.footer{
+	font-family: Arial, Helvetica, sans-serif;
+	left: 0px;
+	top: 0px;
+	color: #222c33;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 10px;
+	font-size: 14px;
+	padding-bottom: 25px;
+	}
+	
+}
