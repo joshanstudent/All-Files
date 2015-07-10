@@ -1,0 +1,10 @@
+<!-- This link is to my Github repository -->
+
+https://github.com/joshanstudent/WiU.git
+
+
+<!-- This link is to my landing page -->
+
+http://joshanstudent.github.io/WiU/WiU%20LandingPage/index.html
+
+

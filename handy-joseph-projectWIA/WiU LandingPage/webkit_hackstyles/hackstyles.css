@@ -1,0 +1,19 @@
+/* main wrapper container */
+#main-wrapper {
+	
+/* As stated from Chris Vincze within the week 3 GoTo Meeting video, some of the Webkit hack code has not been updated into W3C standard validator system as of today. By adding a second styles folder and placing all the Webkit codes that has not been updated, this will let the main.css to validate error free at the same time letting the developer being able to create the features they are tying to create within an error free environment.*/ 
+
+
+	background: #f3e2c7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f3e2c7 0%, #baad64 50%, #89b28f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3e2c7), color-stop(50%,#baad64), color-stop(100%,#89b28f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f3e2c7 0%,#baad64 50%,#89b28f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f3e2c7 0%,#baad64 50%,#89b28f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f3e2c7 0%,#baad64 50%,#89b28f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f3e2c7 0%,#baad64 50%,#89b28f 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#89b28f',GradientType=0 ); /* IE6-9 */
+
+	
+}
+
+
