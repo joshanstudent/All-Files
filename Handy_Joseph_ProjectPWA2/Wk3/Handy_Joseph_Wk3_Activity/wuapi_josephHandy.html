@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!--Joseph Handy
+	Date 24, 2015
+    Month April
+-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Weather API</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<style>
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#9ED6FF;
+}
+
+#container{
+	width: 90%;
+	margin: 0 auto;
+	height: 600px;
+}
+
+.left {
+	width: 35%;
+	padding: 5%;
+	float: left;
+}
+
+.right {
+	width: 45%;
+	padding: 2%;
+	float: right;
+}
+
+h1 {
+	text-align: center;
+	padding: 2%;
+}
+
+</style>
+
+
+</head>
+<body>
+
+<div id="container">
+<header> 
+	<h1>Weather Underground API</h1>
+</header>
+
+<div class="left">
+<h2>Your Three Day Forecast Summary</h2>
+<p class="three">
+<!--1. Display the three day Forecast Summary here-->
+
+</p>
+
+<h2>Your 10-day forecast summary</h2>
+<p class="tenDay">
+<!--2. Display the 10-day forecast summary feature here-->
+    
+</p>
+</div><!--Closes Leftr-->
+
+
+
+<div class="right">
+<h2>Your Hourly 1-day forecast</h2>
+<p class="hourFore">
+<!--3. Display the Hourly 1-day forecast feature here-->
+</p>
+
+
+<h2>Your Astronomy Summary</h2>
+<p class="astro">
+<!--4. Display the WU Astronomy feature here-->
+</p>
+
+<h2>Your Almanac for today</h2>
+<p class="almanac">
+<!--5. Display the Almanac for today feature here-->
+</p>
+</div><!--Closes Right-->
+</div><!--Closes Container-->
+
+
+<!--Link to jQuery Library-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> 
+<script>
+$(document).ready(function($){
+	
+<!--This is an example of how to embed Geolookup. Use your own API key and city location-->	
+	/*
+    $.ajax({
+		url : "http://api.wunderground.com/api/YOURAPIKEY/geolookup/conditions/q/FL/Orlando.json",
+		dataType : "jsonp", 
+          success : function(parsed_json) { 
+              var location = parsed_json['location']['city']; 
+              var temp_f = parsed_json['current_observation']['temp_f'];
+                  $(".three").html("Current temperature in " + location + " is: " + temp_f+"ºF");
+          } 
+	});
+});  //Closes Doc Ready Function
+*/
+	
+<!--Use your own API key and city location-->
+<!--1.Embed the WU 3-day forecast summary feature.-->
+<!--Your Code Here-->
+
+
+        $.ajax({
+            url : "http://api.wunderground.com/api/f822ed0cd235cca8/geolookup/forecast/q/MD/Baltimore.json",  //API for current temperature
+            dataType : "jsonp",                                    //calling json info
+            success : function(parsed_json) { 					//function to find current temp for entered info
+                var threeDay = parsed_json['forecast']['txt_forecast']['forecastday'][0]['title']; 	// var for city and state
+                var threeCast = parsed_json['forecast']['txt_forecast']['forecastday'][0]['fcttext']; 	// variable for current temperature
+                var threeDay2 = parsed_json['forecast']['txt_forecast']['forecastday'][2]['title'];
+                var threeCast2 = parsed_json['forecast']['txt_forecast']['forecastday'][2]['fcttext'];
+                var threeDay4 = parsed_json['forecast']['txt_forecast']['forecastday'][4]['title'];
+                var threeCast4 = parsed_json['forecast']['txt_forecast']['forecastday'][4]['fcttext'];
+                $(".three").html(threeDay + ": " + threeCast + '<br>' +
+                threeDay2 + ": " + threeCast2 + '<br>' +
+                threeDay4 + ": " + threeCast4);  //concatonates the temperture information to city
+                // and puts on line using p class
+            }
+        });
+    });
+
+
+
+
+
+
+
+<!--2.Embed the WU 10-day forecast summary feature.-->	
+<!--Your Code Here-->
+$.ajax({
+    url : "http://api.wunderground.com/api/f822ed0cd235cca8/geolookup/forecast10day/q/MD/Baltimore.json",  //API for current temperature
+dataType : "jsonp",                                    //calling json info
+        success : function(parsed_json) { 					//function to find current temp for entered info
+    var tenDay = parsed_json['forecast']['txt_forecast']['forecastday'][0]['title']; 			// variable for day
+    var tenCast = parsed_json['forecast']['txt_forecast']['forecastday'][0]['fcttext'];		 // varibale for forecast for the day
+    var tenDay2 = parsed_json['forecast']['txt_forecast']['forecastday'][2]['title'];   		  // variable for day
+    var tenCast2 = parsed_json['forecast']['txt_forecast']['forecastday'][2]['fcttext'];		// varibale for forecast for the day
+    var tenDay4 = parsed_json['forecast']['txt_forecast']['forecastday'][4]['title']; 		// variable for day
+    var tenCast4 = parsed_json['forecast']['txt_forecast']['forecastday'][4]['fcttext'];		// varibale for forecast for the day
+    var tenDay6 = parsed_json['forecast']['txt_forecast']['forecastday'][6]['title'];			// variable for day
+    var tenCast6 = parsed_json['forecast']['txt_forecast']['forecastday'][6]['fcttext'];		// varibale for forecast for the day
+    var tenDay8 = parsed_json['forecast']['txt_forecast']['forecastday'][8]['title'];			// variable for day
+    var tenCast8 = parsed_json['forecast']['txt_forecast']['forecastday'][8]['fcttext'];		// varibale for forecast for the day
+    var tenDay10 = parsed_json['forecast']['txt_forecast']['forecastday'][10]['title'];		// variable for day
+    var tenCast10 = parsed_json['forecast']['txt_forecast']['forecastday'][10]['fcttext'];	// varibale for forecast for the day
+    var tenDay12 = parsed_json['forecast']['txt_forecast']['forecastday'][12]['title'];		// variable for day
+    var tenCast12 = parsed_json['forecast']['txt_forecast']['forecastday'][12]['fcttext'];	// varibale for forecast for the day
+    var tenDay14 = parsed_json['forecast']['txt_forecast']['forecastday'][14]['title'];		// variable for day
+    var tenCast14 = parsed_json['forecast']['txt_forecast']['forecastday'][14]['fcttext'];	// varibale for forecast for the day
+    var tenDay16 = parsed_json['forecast']['txt_forecast']['forecastday'][16]['title'];		// variable for day
+    var tenCast16 = parsed_json['forecast']['txt_forecast']['forecastday'][16]['fcttext'];	// varibale for forecast for the day
+    var tenDay18 = parsed_json['forecast']['txt_forecast']['forecastday'][18]['title'];		// variable for day
+    var tenCast18 = parsed_json['forecast']['txt_forecast']['forecastday'][18]['fcttext'];
+    $(".tenDay").html(tenDay + ": " + tenCast + '<br>' +	//concatonates the temperture information to city and puts on line using p class
+    tenDay2 + ": " + tenCast2 + '<br>' +
+    tenDay4 + ": " + tenCast4 + '<br>' +
+    tenDay6 + ": " + tenCast6 + '<br>' +
+    tenDay8 + ": " + tenCast8 + '<br>' +
+    tenDay10 + ": " + tenCast10 + '<br>' +
+    tenDay12 + ": " + tenCast12 + '<br>' +
+    tenDay14 + ": " + tenCast14 + '<br>' +
+    tenDay16 + ": " + tenCast16 + '<br>' +
+    tenDay18 + ": " + tenCast18);
+}
+});
+
+
+
+<!--3.Embed the WU Hourly 1-day forecast feature.-->	
+<!--Your Code Here-->
+$.ajax({
+    url : "http://api.wunderground.com/api/f822ed0cd235cca8/geolookup/hourly/q/MD/Baltimore.json",
+    dataType : "jsonp",                                    //calling json info
+    success : function(parsed_json) { 					//function to find current temp for entered info
+        var dailyDateTime = parsed_json['hourly_forecast'][0]['FCTTIME']['pretty']; 		// var date and time
+        var tempFahr = parsed_json['hourly_forecast'][0]['temp']['english']; 		// var temp fahr
+        var tempCel = parsed_json['hourly_forecast'][0]['temp']['metric'];		// var temp cel
+        var dailyCon = parsed_json['hourly_forecast'][0]['condition']; 		// var  condition
+        var hourWindDeg= parsed_json['hourly_forecast'][0]['wdir']['dir']; 		// var degree of win
+        var hourWindDir = parsed_json['hourly_forecast'][0]['wdir']['degrees']; 		// var wind direction
+        $(".hourFore").html('Hourly Forecast: ' + dailyDateTime + '<br>' +
+        tempFahr + "ºF     " + tempCel + "ºC     " + dailyCon + '<br>' +
+        hourWindDeg + " " + hourWindDir + "º");  // concatonates the hourly temperture information of city
+        // and puts on line using p class
+    }
+
+});
+
+
+//I am very sorry that I couldn't get this. I didn't take this lesson lightly or was I being lazy, just got
+// lose on this one. With me seeing the code and reviewing and compare it within the API from Weather Underground
+// it will make a little more sense. I think I may need an one-on-one for this one. Thanks
+
+
+<!--4.Embed the WU Astronomy feature.-->	
+<!--Your Code Here-->
+$.ajax({
+    url : "http://api.wunderground.com/api/f822ed0cd235cca8/geolookup/astronomy/q/MD/Baltimore.json",
+    dataType : "jsonp",                                    //calling json info
+    success: function(data){
+        var moonPhase = data['moon_phase']['percentIlluminated'];
+        var moonAge = data['moon_phase']['ageOfMoon'];
+        var sunrise = data['moon_phase']['sunrise']['hour'];
+        var sunriseMinute = data['moon_phase']['sunrise']['minute'];
+        var sunsetHour = data['moon_phase']['sunset']['hour'];
+        var sunsetMinute = data['moon_phase']['sunset']['minute'];
+        var hour = data['moon_phase']['current_time']['hour'];
+        var minute = data['moon_phase']['current_time']['minute'];
+
+        $(".astro").html("Moon Ill: "+moonPhase+"%\n<br>"+"Moon Age: "+moonAge+"<br>"+"Current Time: "+hour+":"+minute+"<br>"+"Sunrise: "+sunrise+":"+sunriseMinute+"<br>"+"Sunset: "+sunsetHour+":"+sunsetMinute);
+    }
+});
+
+
+	
+
+<!--5.Embed the WU Almanac for today feature.-->	
+<!--Your Code Here-->
+<!--4.Embed the WU Astronomy feature.-->
+<!--Your Code Here-->
+$.ajax({
+    url : "http://api.wunderground.com/api/f822ed0cd235cca8/geolookup/almanac/q/MD/Baltimore.json",
+    dataType : "jsonp",
+
+success: function(data){
+    var airport = data['almanac']['airport_code'];
+    var highTemp = data['almanac']['temp_high']['normal']['F'];
+    var recordHigh = data['almanac']['temp_high']['record']['F'];
+    var recYear = data['almanac']['temp_high']['recordyear'];
+    var lowTemp = data['almanac']['temp_low']['normal']['F'];
+    var recLow = data['almanac']['temp_low']['record']['F'];
+    var lowRecYear = data['almanac']['temp_low']['recordyear'];
+
+    $(".almanac").html("Local Airport: "+airport+"<br>"+"Average High: "+highTemp+"ºF<br>"+"Record High: "
+    +recordHigh+"ºF<br>"+"Record Year: "+recYear+"<br>"+"Average Low: "+lowTemp+"ºF<br>"
+    +"Record Low: "+recLow+"ºF<br>"+"Record Year: "+lowRecYear);
+}
+});
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+/* Handy_Joseph_Project 4 */
+
+/* ============= Body ======================= */
+#wrapper{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+
+}
+body {
+    background: #F4F0EC;
+    margin: 0px;
+}
+/* ============= Header ======================= */
+
+
+/* ================= Styling for Form ============= */
+
+label {
+    display: inline-block; width: 5em;
+}
+fieldset div {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+fieldset {
+    border: 0;
+}
+
+/* Tool Tip */
+.tooltip {
+    display: none;
+    position: absolute;
+    border: 1px solid #333;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 12px Arial;
+}
+
+/* ============ Log Out  ==================== */
+.userid {
+    width: 100px;
+    float: left;
+}
+
+/* ============ Log Out  ==================== */
+
+.logoutbox {
+    width: 100px;
+    float: right;
+
+}
+
+/* ============ Tabs ==================== */
+#tabs {
+    background-color: #F4F0EC;
+    width: 600px;
+    height: 150px;
+    padding: 20px;
+}
+
+#tabs-nav{
+    width: 400px;
+    height: 75px;
+    padding: 15px 5px 50px 5px;
+    background-color: #D19043;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+#tabs-nav li {
+    display: inline-block;
+    padding: 15px;
+
+}
+/* ============= Modal ================== */
+#overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    display: none;
+}
+
+#modal {
+    width: 355px;
+    background: #F4F0EC;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    z-index: 1001;
+    display: none;
+}
+
+#modal .header {
+    background:#D19043;
+    color: #FFF;
+    padding: 10px;
+}
+
+#modal .close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 16px;
+    padding:  5px;
+    border:  1px solid #fff;
+    cursor:  pointer;
+    background-color:  #552012;
+
+}
+
+form {
+    padding: 10px;
+
+}
+
+header {
+    width: 960;
+
+}
+.userid {
+    width:  500px;
+}
+
+.mystatus > input[type=radio]{
+    display: none;
+}
+
+input[type=radio]:checked + img{
+    border:2px solid #552012;
+}
+
+.close {
+    color: #FFF;
+}
+
+/* ===================== Sortable jQuery UI ==================== */
+#sortable
+{ list-style-type: none; margin: 0; padding: 0px; width: 60%;
+}
+#sortable li
+{ margin: 0px 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px;
+}
+#sortable li span
+{ position: absolute; margin-left: -1.3em;
+}
+
