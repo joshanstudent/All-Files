@@ -1,0 +1,259 @@
+/*main css stylesheet for project 3*/
+/* I use W3C CSS Validator for (CSS level 3) http://www.css-validator.org/ to validate this code and it passed with no errors */
+
+
+/* body , added a background image with a transparent effect to the foreground give a lite see through experience. The foreground also has a color gradient applied to it as well */
+body {
+	font-family: Lato, Arial, Verdena, sans-serif;
+	font-size: 1.000em;
+	font-weight: normal;
+	font-style: normal;
+	font-style: italic;
+	font-style: oblique;
+	font-style: inherit;
+	color: #6C8C3B;
+/* this is the background image of the bowler bowling */
+	background-image:  url("../images/Bowlerbowling1.jpg") ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 80%;
+/* opacity code is being used to give the transparent effect */
+	opacity : 0.9;
+	width: 75%;
+	min-width: 8.000em;
+	height: auto;
+	margin: auto;
+}
+	
+
+/* main wrapper container */
+#main-wrapper {
+	height: auto;
+	width: 90%; 
+	border: 0.125em solid;
+	margin: 20px auto;
+	padding: 1.2em 2.8em;
+	background-color: #F5F2E4;
+/*border-radius is stated as depreciated code and states error within css validator. Using moz-border-radius and webkit-border-radius and it validates error free*/ 
+	-webkit-border-radius: 1.9em;
+	-moz-border-radius: 1.9em;
+	overflow: auto;
+	
+
+/**********************************************************************************************************
+As stated by Chris Vincze within the week 3 GoTo Meeting video, some of the Webkit hack code has not been updated into W3C standard validator system as of today. By adding a second styles folder and placing all the Webkit codes that has not been updated, this will let the main.css to validate error free at the same time letting the developer being able to create the features they are tying to create within an error free environment.
+
+The codes below are within the webkit_hackstyles folder due to these codes are newer and W3C hasn't updated there system with additional code standards as of today. 
+
+	background: #f3e2c7; / Old browsers /
+	background: -moz-linear-gradient(top,  #f3e2c7 0%, #baad64 50%, #89b28f 100%); /FF3.6+ /
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3e2c7), color-stop(50%,#baad64), color-stop(100%,#89b28f)); / Chrome,Safari4+ /
+	background: -webkit-linear-gradient(top,  #f3e2c7 0%,#baad64 50%,#89b28f 100%); / Chrome10+,Safari5.1+ /
+	background: -o-linear-gradient(top,  #f3e2c7 0%,#baad64 50%,#89b28f 100%); /Opera 11.10+ /
+	background: -ms-linear-gradient(top,  #f3e2c7 0%,#baad64 50%,#89b28f 100%); /IE10+ /
+	background: linear-gradient(to bottom,  #f3e2c7 0%,#baad64 50%,#89b28f 100%); /W3C /
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#89b28f',GradientType=0 ); /IE6-9 /
+**********************************************************************************************************/
+	
+}
+
+
+/* main header */
+#top {
+	font-size: 2.500em;
+	color: #6C8C3B;
+	text-align: center;
+	text-shadow: 2.5px 2px #695A3B;
+	margin: 25px auto;
+}
+
+
+/* navigation */
+#navigation li {
+	margin: 1em;
+	display: inline-block;
+	width: 8em;
+	line-height: 1.5em;
+	
+}
+
+#navigation ul {
+	width: 60em;
+	text-align: center;
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0.313em;
+}
+
+/* unvisited link */
+#navigation a:link {
+	text-decoration: none;
+	color: #695A3B;
+}
+
+/* visited link */
+#navigation a:visited {
+	color: #9C4D30;
+	text-decoration: none;
+}
+
+/* mouse over link */
+#navigation a:hover {
+	color: #695A3B;
+	text-decoration: underline;
+}
+
+/* selected link */
+#navigation a:active {
+	color: #695A3B;
+	
+}
+
+
+/* content container */
+#content  {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	margin: 5px auto;
+	clear: left;
+
+	
+	
+}
+
+/* h1, h2, h3 tag */
+h1 {
+	text-align: center;
+	color: #6C8C3B;
+	width: 500px;
+	min-width: 8.000em;
+	height: auto;
+	text-shadow: 2.5px 2px #695A3B;
+	padding: 10px;
+	border: 3px solid #9C4D30;
+/*border-radius is stated as depreciated code and states error within css validator. Using moz-border-radius and webkit-border-radius and it validates error free*/ 
+	-webkit-border-radius: 0.333em;
+	-moz-border-radius: 0.333em;	
+	background-color: #DCCC9B; 
+	margin: 45px auto;
+}
+
+
+h2 {
+	text-align: center;
+	color: #9C4D30;
+	width: 400px;
+	height: auto;
+	text-shadow: 1.5px 1.5px #695A3B;
+	padding: 5px;
+	border: 2px solid #9C4D30;
+/*border-radius is stated as depreciated code and states error within css validator. Using moz-border-radius and webkit-border-radius and it validates error free*/ 
+	-webkit-border-radius: 0.333em;
+	-moz-border-radius: 0.333em;	
+	background-color: #DCCC9B; 
+	margin: 45px;
+}
+
+
+h3{
+	text-shadow: 1.5px 2.3px #000000;
+
+}
+
+
+/* paragraph */
+#paragraph1 {
+	line-height: 1.5em;
+	color: #663300;
+	text-align: justify;
+	margin-bottom: 65px;
+}
+
+
+p {
+	line-height: 1.5em;
+	text-align: justify;
+	color: #101010;
+	text-shadow: .09px .04px #101010;
+
+}
+
+
+/* cites */
+#cites {
+	font-size: .7em;
+	line-height: .5em;
+	text-align: center;
+}
+
+
+/* unordered list */
+ul {
+	line-height: 1.5em;
+	color: #101010;
+	text-shadow: .09px .04px #101010;
+}
+
+
+/*ordered list */
+ol {
+	line-height: 1.5em;
+	color: #101010;
+	text-shadow: .09px .04px #101010;
+}
+
+
+/* box model, background color with image morph effect from color to black & white*/
+.bowlingphotos {
+	border: 3px solid #6C8C3B;
+/*border-radius is stated as depreciated code and states error within css validator. Using moz-border-radius and webkit-border-radius and it validates error free*/ 
+	-webkit-border-radius: 0.333em;
+	-moz-border-radius: 0.333em;	
+	background-color: #DCCC9B;
+	width: 275px;
+	margin-bottom: 50px;
+}
+
+
+.bowlingphotos:hover {
+	-webkit-filter: grayscale(100%);
+} 
+
+
+/* sidebar */
+#sidebar {
+	float: right;
+	width: 20%;
+	padding: 0.798em  0.625em 0.250em 0;
+	margin:  3.323em;
+	clear: right;
+}
+
+
+/* wik */
+#wik {
+	font-size: .7em;
+	line-height: .5em;
+	text-align: left;
+}
+
+
+/*photoimage of large ball and pins */
+#photoimage1 {
+	float: right;
+	opacity: 0.9;
+	padding: 72em  0.005em 1.250em 0;
+	margin:  0.393em;
+	clear: right;
+}
+
+
+/* figcaption text */
+figcaption {
+	line-height: 1.5em;
+	color: #101010;
+	text-shadow: .09px .04px #101010;
+}
+
+

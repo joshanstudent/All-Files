@@ -1,0 +1,176 @@
+/*main css stylesheet for project 2*/
+/* I use W3C CSS Validator for (CSS level 3) http://www.css-validator.org/ to validate this code and it passed with no errors */
+
+
+/* body */
+body {
+	font-family: Lato, Arial, Verdena, sans-serif;
+	font-size: 1.000em;
+	font-weight: normal;
+	font-style: normal;
+	font-style: italic;
+	font-style: oblique;
+	font-style: inherit;
+	color: #6C8C3B;
+	background-color: #663300;
+	width: auto;
+	min-width: 60.000em;
+	height: auto;
+	margin: auto;
+}
+
+
+/* main wrapper container */
+#main-wrapper {
+	height: auto;
+	width: 60.000em; 
+	border: 0.125em solid;
+	margin: 30px auto;
+	padding: 1.9em;
+	background-color: #F5F2E4;
+/*border-radius is stated as depreciated code and states error within css validator. Using moz-border-radius and webkit-border-radius and it validates error free*/ 
+	-webkit-border-radius: 1.9em;
+	-moz-border-radius: 1.9em;
+
+}
+
+
+/* main header */
+#top {
+	font-size: 2.500em;
+	color: #695A3B;
+	text-align: center;
+	text-shadow: 1px 2px #F1D684;
+	margin: 25px auto;
+	
+}
+
+
+/* navigation */
+#navigation li {
+	margin: 1em;
+	display: inline-block;
+	width: 8em;
+}
+
+#navigation ul {
+	width: 60em;
+	text-align: center;
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0.313em;
+}
+
+/* unvisited link */
+#navigation a:link {
+	text-decoration: none;
+	color: #695A3B;
+}
+
+/* visited link */
+#navigation a:visited {
+	color: #9C4D30;
+	text-decoration: none;
+}
+
+/* mouse over link */
+#navigation a:hover {
+	color: #695A3B;
+	text-decoration: underline;
+}
+
+/* selected link */
+#navigation a:active {
+	color: #695A3B;
+	
+}
+
+
+/* h1, h2, h3 tag */
+h1 {
+	text-align: center;
+	color: #6C8C3B;
+	width: 800px;
+	height: auto;
+	padding: 10px;
+	border: 3px solid #9C4D30;
+/*border-radius is stated as depreciated code and states error within css validator. Using moz-border-radius and webkit-border-radius and it validates error free*/ 
+	-webkit-border-radius: 0.333em;
+	-moz-border-radius: 0.333em;	
+	background-color: #DCCC9B; 
+	margin: 45px auto;
+}
+
+h2 {
+	text-align: center;
+	color: #9C4D30;
+	width: 120px;
+	height: auto;
+	padding: 10px;
+	border: 2px solid #9C4D30;
+/*border-radius is stated as depreciated code and states error within css validator. Using moz-border-radius and webkit-border-radius and it validates error free*/ 
+	-webkit-border-radius: 0.333em;
+	-moz-border-radius: 0.333em;	
+	background-color: #DCCC9B; 
+	margin: 40px;
+}
+
+h3{
+	text-shadow: 1px 2px #F1D684;
+}
+
+
+/* paragraph */
+#paragraph1 {
+	line-height: 1.5em;
+	color: #663300;
+	text-align: justify;
+	margin-bottom: 65px;
+}
+
+p {
+	line-height: 1.5em;
+	text-align: justify;
+	color: #2D3330;
+}
+
+
+/* cites */
+#cites {
+	font-size: .7em;
+	line-height: .5em;
+	text-align: right;
+}
+
+
+/* unordered list */
+ul {
+	line-height: 1.5em;
+	color: #2D3330;
+}
+
+
+/*ordered list */
+ol {
+	line-height: 1.5em;
+	color: #2D3330;
+}
+
+
+/* box model, background color with image morph effect from color to black & white*/
+.bowlingphotos {
+	border: 3px solid #6C8C3B;
+/*border-radius is stated as depreciated code and states error within css validator. Using moz-border-radius and webkit-border-radius and it validates error free*/ 
+	-webkit-border-radius: 0.333em;
+	-moz-border-radius: 0.333em;	
+	background-color: #DCCC9B;
+	width: 275px;
+	margin-bottom: 50px;
+}
+
+.bowlingphotos:hover {
+	-webkit-filter: grayscale(100%);
+} 
+
+
+
